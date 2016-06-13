@@ -1,0 +1,58 @@
+body{
+  background-image: url('img/wood1.jpg');
+}
+header, footer{
+  background-image: url('img/wood.jpg');
+}
+h1
+{
+  letter-spacing: 2px;
+  text-shadow: 3px 5px brown;
+  font-size: 60px;
+  font-family:sans-serif;
+  margin-left: 10px;
+  color: white;
+}
+#link{
+  background-image: url('img/link.jpg');
+}
+header img{
+  border-radius: 20px;
+}
+  #bg{
+    height: 600;
+    background-image: url('img/college.jpg');
+    background-size:cover;
+  }
+
+ul{
+  margin-left: 170px;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+a{
+  text-decoration:none;
+  color: brown;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+a:visited {
+    color: black;
+    background-color: cyan;
+}
+a:hover {
+    color: green;
+    background-color: lightblue;
+    text-shadow: 2px 1px maroon;
+
+}
+a:active {
+    color: black;
+}
